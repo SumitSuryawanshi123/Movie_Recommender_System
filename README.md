@@ -34,6 +34,6 @@ https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 ## Images
 
 ![Alt text](https://github.com/SumitSuryawanshi123/Movie_Recommender_System/blob/main/IMages/Screenshot%20(46).png)
-![Alt text](Screenshot(47).png)
+![Alt text](https://github.com/SumitSuryawanshi123/Movie_Recommender_System/blob/main/IMages/Screenshot%20(47).png)
 
 
