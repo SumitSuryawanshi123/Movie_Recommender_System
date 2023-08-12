@@ -37,8 +37,8 @@ def recommend(movie):
 movies_dict=pickle1.load(open('movies_dic1t.pkl','rb'))
 movies=pd.DataFrame(movies_dict)
 
-data = bz2.BZ2File('similarity68.pkl','rb')
-similarity = pickle1.load(data)
+# data = 
+similarity = pickle1.load(bz2.BZ2File('similarity68.pkl','rb'))
 
 selected_movie_name=st.selectbox(
     'Select movie as per your intrest', movies['title'].values)
