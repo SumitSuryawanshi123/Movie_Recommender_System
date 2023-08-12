@@ -38,7 +38,7 @@ movies_dict=pickle.load(open('movies_dic1t.pkl','rb'))
 movies=pd.DataFrame(movies_dict)
 
 data = bz2.BZ2File('similarity68.pkl','rb')
-similarity = cpickle.load(data)
+similarity = pickle.load(data)
 
 selected_movie_name=st.selectbox(
     'Select movie as per your intrest', movies['title'].values)
