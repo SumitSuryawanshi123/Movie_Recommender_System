@@ -1,10 +1,8 @@
 import pickle as pickle1
-
 import pandas as pd
 import streamlit as st
 import requests
-import bz2
-import _pickle as cpickle
+
 
 
 st.title('Movie Recommender System ')
