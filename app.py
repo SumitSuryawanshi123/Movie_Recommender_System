@@ -4,6 +4,8 @@ import streamlit as st
 import requests
 
 
+URI = "https://github.com/SumitSuryawanshi123/Movie_Recommender_System/blob/main/similarity.pkl"
+similarity = joblib.load(BytesIO(requests.get(URI).content))
 
 st.title('Movie Recommender System ')
 st.header('Sumit Suryawanshi')
@@ -36,7 +38,7 @@ movies_dict=pickle1.load(open('movies_dic1t.pkl','rb'))
 movies=pd.DataFrame(movies_dict)
 
 # data = 
-similarity = pickle1.load(open('similarity.pkl','rb'))
+# similarity = pickle1.load(open())
 
 selected_movie_name=st.selectbox(
     'Select movie as per your intrest', movies['title'].values)
