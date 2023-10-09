@@ -2,6 +2,9 @@ import pickle as pickle1
 import pandas as pd
 import streamlit as st
 import requests
+# 
+import joblib
+from io import BytesIO
 
 
 URI = "https://github.com/SumitSuryawanshi123/Movie_Recommender_System/blob/main/similarity.pkl"
