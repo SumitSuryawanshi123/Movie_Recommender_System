@@ -12,7 +12,7 @@ Cosine similarity is a measure of similarity between two non-zero vectors of an 
 
 The formula for cosine similarity between vectors A and B is given by:
 
-\[ \text{cosine\_similarity}(A, B) = \frac{A \cdot B}{\|A\| \cdot \|B\|} \]
+[![formula](https://builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/1_cosine-similarity.png)]
 
 ## Features Used for Prediction
 
