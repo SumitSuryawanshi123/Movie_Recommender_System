@@ -32,7 +32,7 @@ The formula for cosine similarity between vectors A and B is given by:
 ## 🎥 Video Demo
 Click the image above to watch a demo of the recommendation system.
 
-[![recommendation Demo](https://github.com/SumitSuryawanshi123/Chat_Bot/blob/main/Image.png)](https://drive.google.com/file/d/1HyeSYx3Kho-Nj6356UFMpezSPnmC_VcP/view?usp=drive_link)
+[![recommendation Demo](https://github.com/SumitSuryawanshi123/Movie_Recommender_System/blob/main/Image%20(2).png)](https://drive.google.com/file/d/1HyeSYx3Kho-Nj6356UFMpezSPnmC_VcP/view?usp=drive_link)
 
 ## Installation
 
