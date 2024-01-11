@@ -1,39 +1,42 @@
+# Movie Recommender System 🍿
 
-# Movie Recommender System
+A content-based movie recommendation system that suggests movies based on their features and utilizes cosine similarity for comparison. In this project TMDB movie data set is used. Recommendation are made using cosine similarity, it gives similarity between two movies based on the textual content of the movies.
 
-In this project TMDB movie data set is used. Recommendation are made using cosine similarity, it gives similarity between two movies based on the textual content of the movies.
+## Content-Based Recommendation System
 
-## Cosine similarity :-
-Cosine similarity measures the similarity between two vectors by calculating the cosine of the angle between the two vectors.
-Cosine similarity is calculated as follows,
+Content-based recommendation systems suggest items similar to what a user has liked in the past. In this project, we use various features of movies to recommend similar ones to the user.
 
-#### ![Alt text](https://miro.medium.com/v2/resize:fit:828/format:webp/1*AqWG1VHnLf8P7_H4KDBwVQ.png)
+## Cosine Similarity
 
-### Formula
+Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space. In the context of the movie recommendation system, it is used to find the similarity between two movies based on their feature vectors.
 
-#### ![Alt text](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*LfW66-WsYkFqWc4XYJbEJg.png)
+The formula for cosine similarity between vectors A and B is given by:
 
-## Features used for prediction 
-* Movie_id	
-* Title	
-* Overview	
-* Genres	
-* Keywords	
-* Cast
-## Libraries used
-* Pandas	
-* Numpy
-* NLTK	
-* From sklearn Countvectorizer 
-* From sklearn Cosine_similarity
+\[ \text{cosine\_similarity}(A, B) = \frac{A \cdot B}{\|A\| \cdot \|B\|} \]
 
-## Data Set Link
+## Features Used for Prediction
 
-https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+- **Movie ID:** Unique identifier for each movie.
+- **Title:** The title of the movie.
+- **Overview:** Brief description or summary of the movie.
+- **Genres:** Genres associated with the movie.
+- **Keywords:** Keywords associated with the movie.
+- **Cast:** List of actors and actresses in the movie.
 
-## Images
+## Libraries Used
 
-![Alt text](https://github.com/SumitSuryawanshi123/Movie_Recommender_System/blob/main/IMages/Screenshot%20(46).png)
-![Alt text](https://github.com/SumitSuryawanshi123/Movie_Recommender_System/blob/main/IMages/Screenshot%20(47).png)
+- **Pandas**
+- **NumPy**
+- **NLTK (Natural Language Toolkit)**
 
+## 🎥 Video Demo
+Click the image above to watch a demo of the recommendation system.
 
+[![recommendation Demo](https://github.com/SumitSuryawanshi123/Chat_Bot/blob/main/Image.png)](https://drive.google.com/file/d/1HyeSYx3Kho-Nj6356UFMpezSPnmC_VcP/view?usp=drive_link)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/movie-recommender.git
